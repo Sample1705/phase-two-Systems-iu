@@ -1,0 +1,17 @@
+{
+  "name": "I ≠ U App Solutions & Systems",
+  "short_name": "I ≠ U",
+  "description": "We design, build, and automate scalable web applications, custom software, UI/UX designs, and ERPNext/n8n/Mautic integrations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050a10",
+  "theme_color": "#050a10",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iu-systems.com/sitemap.xml

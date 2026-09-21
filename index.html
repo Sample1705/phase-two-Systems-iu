@@ -3,13 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/assets/logo.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050a10" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
     <meta name="description" content="I ≠ U - App Solutions & Systems. We design, build, and automate scalable web applications, custom software, UI/UX designs, and ERPNext/n8n/Mautic integrations." />
     <meta name="keywords" content="I ≠ U, App Solutions, Systems Integration, ERPNext, n8n, Mautic, UI/UX Design, React, Flutter, Custom Software Development, Workflow Automation" />
     <meta name="author" content="I ≠ U App Solutions & Systems" />
     <title>I ≠ U | App Solutions & Systems</title>
     
-    <!-- Google Fonts: Plus Jakarta Sans (Elegant Headings & Body) -->
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iu-systems.com/" />
+    <meta property="og:title" content="I ≠ U | App Solutions & Systems" />
+    <meta property="og:description" content="We design, build, and automate scalable web applications, custom software, UI/UX designs, and ERPNext/n8n/Mautic integrations." />
+    <meta property="og:image" content="https://iu-systems.com/assets/logo.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://iu-systems.com/" />
+    <meta name="twitter:title" content="I ≠ U | App Solutions & Systems" />
+    <meta name="twitter:description" content="We design, build, and automate scalable web applications, custom software, UI/UX designs, and ERPNext/n8n/Mautic integrations." />
+    <meta name="twitter:image" content="https://iu-systems.com/assets/logo.png" />
+
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+
+    <!-- Google Analytics 4 (GA4) Tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', { send_page_view: true });
+    </script>
+
+    <!-- Structured Data (JSON-LD Graph for Organization & WebSite) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://iu-systems.com/#organization",
+          "name": "I ≠ U App Solutions & Systems",
+          "url": "https://iu-systems.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://iu-systems.com/assets/logo.png"
+          },
+          "description": "We design, build, and automate scalable web applications, custom software, UI/UX designs, and ERPNext/n8n/Mautic integrations.",
+          "email": "tejaswini@iu-systems.com",
+          "sameAs": [
+            "https://www.linkedin.com/company/125074039/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://iu-systems.com/#website",
+          "url": "https://iu-systems.com",
+          "name": "I ≠ U App Solutions & Systems",
+          "publisher": {
+            "@id": "https://iu-systems.com/#organization"
+          },
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
